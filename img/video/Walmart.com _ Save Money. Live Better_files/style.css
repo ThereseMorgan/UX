@@ -1,0 +1,173 @@
+
+p {
+    font-family: "BogleWeb-Regular", Verdana, sans-serif;
+    font-size: 18px;
+}
+h1 {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+    font-size: 28px;
+}
+h2 {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+    font-size: 24px;
+}
+h3 {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+    font-size: 18px;
+}
+h4 {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+    font-size: 16px;
+}
+h5 {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+    font-size: 14px;
+}
+h6 {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+    font-size: 12px;
+}
+ /** Sections
+ You can add general padding / margin rules here. These sections we’ll flesh out more later
+  */
+  
+  .sidenav {
+   height: 100%;
+   width: 260px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   right: 0;
+   background-color: white;
+   overflow-x: hidden;
+   padding-top: 20px;
+   border-radius: 1px;
+ }
+ 
+ .sidenav a {
+   padding: 6px 8px 6px 16px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+ }
+ 
+ .sidenav a:hover {
+   color: #f1f1f1;
+ }
+ 
+ .main {
+   margin-left: 160px; /* Same as the width of the sidenav */
+   font-size: 28px; /* Increased text to enable scrolling */
+   padding: 0px 10px;
+ }
+
+  
+ .nav {
+  
+ }
+  
+ header {
+    
+ }
+  
+ .sidebar {
+    margin: ;
+    padding: ;
+ }
+  
+ .footer {
+    margin: ;
+    padding: ;
+ }
+  
+ /** Button Styles
+ Button1 is the blue buttons
+ Button2 is the buttons with a black border
+ Add another if I missed something
+  */
+
+  .input-group.md-form.form-sm.form-2 input {
+   border: 1px solid #bdbdbd;
+   border-top-left-radius: 0.25rem;
+   border-bottom-left-radius: 0.25rem;
+ }
+  
+ .button1 {
+    border-radius: ;
+    background-color: ;
+    color: ;
+    border: ;
+    width: ;
+    height: ;
+    padding: ;
+    text-align: ;
+    text-decoration: ;
+    display: ;
+    font-size: ;
+    transition-duration: ;
+ }
+
+ .input-group.md-form.form-sm.form-2 input.lime-border {
+   border: 1px solid #cddc39;
+ }
+  
+ .button1:hover {
+    background-color: ;
+    color: ;
+ }
+  
+ .button2 {
+    border-radius: ;
+    background-color: ;
+    color: ;
+    width: ;
+    height: ;
+    border: ;
+    padding: ;
+    text-align: ;
+    text-decoration: ;
+    display: ;
+    font-size: ;
+    transition-duration: ;
+ }
+  
+ .button2:hover {
+    background-color: ;
+    color: ;
+ }
+  
+ .disabled {
+    opacity: ;
+    cursor: not-allowed;
+ }
+  
+ /** Colors */
+  
+ .dblue {
+    background-color: #004c91;
+ }
+  
+ .blue {
+    background-color: #007dc6;
+ }
+  
+ .lblue {
+    background-color: #78b9e7;
+ }
+  
+ .orange {
+    background-color: #f47321;
+ }
+  
+ .yellow {
+    background-color: #ffc220;
+ }
+  
+ .dgreen {
+    background-color: #367c2b;
+ }
+  
+ .lgreen {
+    background-color: #76c043;
+ }
