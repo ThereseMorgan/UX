@@ -10,6 +10,13 @@ html, body {
   background-color: #222222;
 }
 
+.dblue {
+  background-color: #24262e;
+}
+
+#contact {
+  background-color: #313e64;
+}
 
 /*-- Parallax Landing Page Section --*/
 .parallax-home {
