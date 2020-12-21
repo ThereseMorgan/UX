@@ -18,6 +18,18 @@ html, body {
   background-color: #313e64;
 }
 
+.casestudy {
+  float: left;
+}
+
+.casestudy2 {
+  float: right;
+}
+
+.bb {
+  border-radius: 8px;
+}
+
 /*-- Parallax Landing Page Section --*/
 .parallax-home {
   height: 100vh;
