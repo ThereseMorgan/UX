@@ -100,6 +100,26 @@ nav a {
 }
 
 
+.owl-carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.clients img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform .3s ease;
+}
+.clients img:hover {
+  transform: scale(0.95);
+}
+blockquote .svg-inline--fa {
+  margin: 1rem;
+  color: #396afc;
+}
+.clients-hr {
+  border-top: .05rem solid #396afc;
+}
 
 
 .nav-item {
