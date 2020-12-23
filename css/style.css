@@ -121,6 +121,14 @@ blockquote .svg-inline--fa {
   border-top: .05rem solid #396afc;
 }
 
+.tag {
+  background-color:#d5d6e1;
+ margin: 5px;
+  color: #313135;
+  width: 50%;
+  padding: 3px;
+}
+
 
 .nav-item {
   padding: .5rem;
