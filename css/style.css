@@ -110,26 +110,33 @@ html, body {
 .navbar-brand img {
   height: 2.8rem;
 }
-.navbar {
-  background-color: white;
-  font-size: 1rem;
-  letter-spacing: .1rem;
-}
 
-.navbard {
+.navbar {
   font-size: 1rem;
-  letter-spacing: .1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  z-index: 1;
+}
+.nav-item {
+  padding: .5rem;
+}
+.nav-link {
+  color: #5b5555!important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #4981b3!important;
 }
 
 nav a {
   color: black;
 }
 
-
 .owl-carousel {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .clients img {
   width: 100%;
   height: auto;
