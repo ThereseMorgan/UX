@@ -6,6 +6,33 @@ html, body {
   font-size: large;
 }
 
+
+.badge-light {
+  background-color: #e9eaf0;
+
+}
+
+.btn-primary {
+  background-color: #5d6fd7;
+  border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #5966b4;
+  border-color: #none; /*set the color you want here*/
+}
+
+
+.badge {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
 .left {
   flex: left;
 }
@@ -114,10 +141,10 @@ nav a {
 }
 blockquote .svg-inline--fa {
   margin: 1rem;
-  color: #396afc;
+  color: #5362b8;
 }
 .clients-hr {
-  border-top: .05rem solid #396afc;
+  border-top: .05rem solid #5362b8;
 }
 
 .tag {
@@ -138,11 +165,15 @@ blockquote .svg-inline--fa {
 
 .nav-link.active,
 .nav-link:hover {
-  color: #396AFC!important;
+  color: #5362b8!important;
 }
 
 .blue {
-  color: #396afc;
+  color: #5d6fd7;
+}
+
+.bblue {
+  background-color: #5362b8;
 }
 
 /*============= CAROUSEL =============*/
@@ -418,9 +449,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   width: 100%
-}
-
-.badge-light {
-  background-color: ;
-  padding-left: 5px;
 }
