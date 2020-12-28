@@ -20,7 +20,7 @@ html, body {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #5966b4;
-  border-color: #none; /*set the color you want here*/
+  border-color: none; 
 }
 
 
@@ -295,7 +295,24 @@ footer a:hover,
 
 /*============= MEDIA QUERIES =============*/
 
-
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+  }
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+  p.lead {
+    font-size: 1.2rem;
+  }
+  .carousel-indicators li {
+    width: 30px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+}
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
   p.lead {
@@ -315,6 +332,7 @@ footer a:hover,
 }
 /* Devices under 576px (sm) */
 @media (max-width: 575.98px) {
+
   .nop {
     padding: 0;
   }
@@ -327,14 +345,9 @@ footer a:hover,
     padding: 0;
   }
 
-  .footer {
-    padding: 0;
-  }
-
   .navbar-brand img {
     height: 2.3rem;
   }
-
   .navbar {
     font-size: .9rem;
     padding: .3rem .6rem;
@@ -342,30 +355,7 @@ footer a:hover,
   .jumbotron .svg-inline--fa {
     font-size: 1.4rem;
     margin: 0 .5rem;
-  }
 
-  h1 {
-    font-size:1.5rem;
-  } /*1rem = 16px*/
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  h4 {
-    font-size: 1.2rem;
-  }
-
-  h5 {
-    font-size: 1.1rem;
-  }
-
-  .display-1 {
-    font-size: 3.5rem;
   }
 
   .display-2 {
