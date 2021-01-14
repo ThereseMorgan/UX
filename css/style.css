@@ -6,12 +6,6 @@ html, body {
   font-size: large;
 }
 
-
-.badge-light {
-  background-color: #e9eaf0;
-
-}
-
 .btn-primary {
   background-color: #5d6fd7;
   border: none;
@@ -22,6 +16,7 @@ html, body {
   background-color: #5966b4;
   border-color: none; 
 }
+
 
 
 .badge {
@@ -58,6 +53,10 @@ html, body {
   background-color: #313e64;
 }
 
+.lght {
+  background-color: #e6e7eb;
+}
+
 .casestudy {
   float: left;
 }
@@ -66,9 +65,7 @@ html, body {
   float: right;
 }
 
-.lght {
-  background-color: #e6e7eb;
-}
+
 
 .bb {
   border-radius: 8px;
@@ -179,9 +176,24 @@ blockquote .svg-inline--fa {
   color: #5d6fd7;
 }
 
+.purple {
+  color: #0f27af;
+}
+
 .bblue {
   background-color: #5362b8;
 }
+
+.bblue {
+  background-color: #313e64;
+}
+
+.badge-light {
+  background-color: #e9eaf0;
+
+}
+
+
 
 /*============= CAROUSEL =============*/
 
@@ -266,9 +278,7 @@ ul.social li {
   opacity: .05;
 }
 
-.bblue {
-  background-color: #313e64;
-}
+
 
 /*============= FOOTER =============*/
 
