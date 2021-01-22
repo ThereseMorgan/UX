@@ -55,6 +55,15 @@ html, body {
   background-color: #e6e7eb;
 }
 
+.foot {
+  background-color: #2e2e39;
+}
+
+.dropdown-menu {
+  border: none!;
+  background-color: none!;
+}
+
 .casestudy {
   float: left;
 }
@@ -105,7 +114,7 @@ html, body {
 
 .navbar {
   font-size: 1rem;
-  font-weight: 600;
+ 
   letter-spacing: 0.1rem;
   z-index: 1;
 }
@@ -118,10 +127,11 @@ html, body {
 .nav-link.active,
 .nav-link:hover {
   color: #4981b3!important;
+  font-weight: 600;
 }
 
 nav a {
-  color: black;
+  color: #5b5555;
 }
 
 .owl-carousel {
@@ -158,10 +168,6 @@ blockquote .svg-inline--fa {
   padding: .5rem;
 }
 
-.nav-link {
-  color: black!important;
-}
-
 .nav-link.active,
 .nav-link:hover {
   color: #5362b8!important;
@@ -175,8 +181,12 @@ blockquote .svg-inline--fa {
   color: #0f27af;
 }
 
-.bblue {
+.bblue2 {
   background-color: #5362b8;
+}
+
+.bblue3 {
+  background-color: #b4c2ee;
 }
 
 .bblue {
