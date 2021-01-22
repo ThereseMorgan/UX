@@ -17,8 +17,6 @@ html, body {
   border-color: none; 
 }
 
-
-
 .badge {
   padding-right: 20px;
   padding-left: 20px;
@@ -65,8 +63,6 @@ html, body {
   float: right;
 }
 
-
-
 .bb {
   border-radius: 8px;
 }
@@ -100,7 +96,6 @@ html, body {
   padding: .8rem 1.5rem;
   font-size: 1.1rem;
 }
-
 
 /*============= NAVIGATION =============*/
 
@@ -190,10 +185,7 @@ blockquote .svg-inline--fa {
 
 .badge-light {
   background-color: #e9eaf0;
-
 }
-
-
 
 /*============= CAROUSEL =============*/
 
@@ -271,17 +263,11 @@ ul.social li {
   color: gray!important;
 }
 
-
 /*============= COLUMN CONTENT =============*/
-
 .fa-square {
   opacity: .05;
 }
-
-
-
 /*============= FOOTER =============*/
-
 footer {
   background-color: #313e64;
 }
@@ -372,7 +358,6 @@ footer a:hover,
   .jumbotron .svg-inline--fa {
     font-size: 1.4rem;
     margin: 0 .5rem;
-
   }
 
   .display-2 {
@@ -387,8 +372,100 @@ footer a:hover,
     font-size: 2rem;
   }
 }
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+h1 {font-size:1rem;} /*1rem = 16px*/
 
+@media (max-width: 543px) { 
+#form_name {
+  width: 100%;
+}
+#form_email {
+  width: 100%;
+}
+#form_message {
+  width: 100%;
+}
+}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {font-size:1.5rem;} /*1rem = 16px*/
+  #form_name {
+    width: 75%;
+  }
+  #form_email {
+    width: 75%;
+  }
+  #form_message {
+    width: 100%;
+  }
+}
 
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2rem;} /*1rem = 16px*/
+  #form_name {
+    width: 75%;
+  }
+  #form_email {
+    width: 75%;
+  }
+  #form_message {
+    width: 100%;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+  #form_name {
+    width: 50%;
+  }
+  #form_email {
+    width: 50%;
+  }
+  #form_message {
+    width: 75%;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size:3rem;} /*1rem = 16px*/
+  #form_name {
+    width: 50%;
+  }
+  #form_email {
+    width: 50%;
+  }
+  #form_message {
+    width: 75%;
+  }    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;} 
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
