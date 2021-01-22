@@ -389,6 +389,11 @@ h1 {font-size:1rem;} /*1rem = 16px*/
 #form_message {
   width: 100%;
 }
+
+.cs-bg-div.moment {
+  background-image: url("../img/ed/ed-splash-10.png");
+}
+
 }
 /*
 ####################################################
@@ -737,4 +742,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .fadeOutUp {
   animation-name: fadeOutUp;
 }
-
