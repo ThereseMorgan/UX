@@ -3544,25 +3544,6 @@
       margin-bottom: 60px;
     }
   
-    .cs-bg-div {
-      height: 610px;
-      background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b57ecf81371d7ac0ac7f304_boosted-2018-bg.jpg");
-      background-position: 50% 50%;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  
-    .cs-bg-div.solar-city {
-      background-position: -268px 0px;
-    }
-  
-    .cs-bg-div.givepower {
-      background-position: -784px 0px;
-    }
-  
-    .cs-bg-div.kore {
-      background-position: -367px 0px;
-    }
   
     .cs-bg-div.cardiff {
       background-position: -499px -9px;

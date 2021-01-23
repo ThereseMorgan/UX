@@ -197,6 +197,12 @@ blockquote .svg-inline--fa {
   background-color: #e9eaf0;
 }
 
+
+.iconn {
+  height: 70px;
+  width: auto;
+  color: #5362b8;
+}
 /*============= CAROUSEL =============*/
 
 .carousel-inner {
