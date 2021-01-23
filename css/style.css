@@ -770,3 +770,17 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .fadeOutUp {
   animation-name: fadeOutUp;
 }
+
+#line {
+  text-align:center;  
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 20px 0;
+  grid-gap: 20px;
+}
+
+#line:after,#line:before {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid grey;
+}
