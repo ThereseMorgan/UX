@@ -114,7 +114,6 @@ html, body {
 
 .navbar {
   font-size: 1rem;
- 
   letter-spacing: 0.1rem;
   z-index: 1;
 }
@@ -783,4 +782,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
   content: " ";
   display: block;
   border-bottom: 2px solid grey;
+}
+
+#center {
+  display: flex;
+  align-items: center;
 }
