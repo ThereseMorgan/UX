@@ -538,7 +538,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   margin: 0;
   padding: 15px;
   position: relative;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   width: 100%
 }
 .parallax-container .parallax-content {
