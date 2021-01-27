@@ -17,7 +17,7 @@ $fromEmail = $_POST['email'];
 $fromName = $_POST['name'];
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'email@gmail.com';
+$sendToEmail = 't.morgan106@gmail.com';
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name:', 'email' => 'Email:', 'message' => 'Message:');
@@ -81,21 +81,7 @@ $mail->IsSMTP();
                 $mail->AddReplyTo($fromEmail,$fromName);
 
 
-
-
-
-
     // end email configuration
-
-
-
-
-
-
-
-
-
-
 
 
     $mail->Subject = 'New message from contact form';
@@ -116,7 +102,6 @@ catch (\Exception $e)
     // $responseArray = array('type' => 'danger', 'message' => $errorMessage);
     $responseArray = array('type' => 'danger', 'message' => $e->getMessage());
 }
-
 
 // if requested by AJAX request return JSON response
 if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {

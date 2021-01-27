@@ -17,8 +17,8 @@ $fromEmail = $_POST['email'];
 $fromName = $_POST['name'];
 
 // an email address & name that will receive the email with the output of the form
-$sendToEmail = 'name@mydomain.com';
-$sendToName = 'Name';
+$sendToEmail = 't.morgan106@gmail.com';
+$sendToName = 'Theresa Morgan';
 
 // subject of the email
 $subject = 'New message from contact form';

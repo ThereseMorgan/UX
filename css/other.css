@@ -11,7 +11,6 @@
   }
   
   body {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #333;
     font-size: 14px;
     line-height: 20px;
@@ -130,8 +129,6 @@
     background-color: #181818;
   }
   
-
-  
   .container-2 {
     margin-bottom: 150px;
   }
@@ -150,14 +147,6 @@
     padding-left: 0px;
     float: none;
   }
-  
-  .image-3 {
-    position: fixed;
-    right: 210px;
-    z-index: 2;
-    -webkit-transition: opacity 200ms ease;
-    transition: opacity 200ms ease;
-  }
 
   .text-block {
     margin-top: 83px;
@@ -165,22 +154,6 @@
     font-family: Nunito, sans-serif;
     color: grey;
     text-align: center;
-  }
-  
-  .button {
-    margin-left: 26px;
-    padding: 16px 30px 16px 28px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: hsla(0, 0%, 100%, 0.53);
-    background-color: hsla(0, 0%, 95.3%, 0);
-    font-family: Inconsolata, monospace;
-    color: #b9b9b9;
-  }
-  
-  .button:hover {
-    border-color: #fff;
-    color: #fff;
   }
   
   .container-4 {
@@ -200,8 +173,6 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
   }
-  
-  
   
   .div-block.kore {
     background-image: url("../img/seqrpay/seqrpay-splash.png");
@@ -279,18 +250,11 @@
     bottom: 0px;
     width: 377.5px;
     margin-left: 65px;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #fff;
     font-size: 12px;
     line-height: 17px;
     font-weight: 300;
     text-transform: none;
-  }
-  
-  .image-8 {
-    position: absolute;
-    right: 25px;
-    bottom: -700px;
   }
   
   .text-block-4 {
@@ -302,17 +266,6 @@
     font-size: 12px;
     text-align: right;
     text-transform: none;
-  }
-  
-  .button-2 {
-    position: absolute;
-    top: 519px;
-    margin-left: 55px;
-    padding: 12px 25px 12px 26px;
-    border: 2px solid #000;
-    background-color: hsla(0, 0%, 100%, 0);
-    font-family: Nunito, sans-serif;
-    color: #000;
   }
   
   .text-block-5 {
@@ -343,46 +296,11 @@
     background-attachment: scroll;
   }
   
-  .image-9 {
-    position: absolute;
-    top: 91px;
-    right: -49px;
-    bottom: 0px;
-    z-index: -3;
-    margin-top: 0px;
-  }
-  
   .container-5 {
     position: static;
     overflow: visible;
     height: 361.796875px;
     margin-bottom: 0px;
-  }
-  
-  .image-10 {
-    position: absolute;
-    right: -169px;
-    display: block;
-    overflow: visible;
-    width: 461px;
-    max-width: 200%;
-  }
-  
-  .image-11 {
-    position: relative;
-    top: 143px;
-    z-index: -3;
-    max-width: 290%;
-  }
-  
-  .image-12 {
-    position: relative;
-    top: 640px;
-    right: 20px;
-    display: block;
-    overflow: hidden;
-    max-width: 210%;
-    float: right;
   }
   
   .text-block-6 {
@@ -473,36 +391,6 @@
     background-image: linear-gradient(180deg, #fff, #fff);
   }
   
-  .menu-button {
-    position: static;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    display: block;
-    overflow: visible;
-    width: 60px;
-    height: 60px;
-    padding-top: 68px;
-    float: right;
-    clear: both;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(red));
-    background-image: linear-gradient(180deg, red, red);
-  }
-  
-  .menu-button-2 {
-    display: block;
-    padding-top: 18px;
-    float: none;
-    clear: none;
-  }
-  
-  .x {
-    display: block;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
   .vertical-line {
     display: block;
     margin-top: 10px;
@@ -545,16 +433,6 @@
     position: static;
   }
   
-  .image-17 {
-    position: absolute;
-    top: 580px;
-    right: 0px;
-    bottom: 0px;
-    display: block;
-    overflow: hidden;
-    max-width: 270%;
-  }
-  
   .column-2 {
     position: relative;
     overflow: visible;
@@ -592,12 +470,10 @@
     background-color: #fff;
   }
 
-  
   .case-study-hero.moment-hero {
     background-image: url("../img/ed/ed-splash.png");
   }
  
-  
   .case-study-hero.kore {
     background-image: url("../img/seqrpay/seqrpay-splash.png");
   }
@@ -908,42 +784,6 @@
     overflow: visible;
   }
   
-  .image-32 {
-    position: absolute;
-    left: 0px;
-    top: 181px;
-    right: 0px;
-    max-width: 55%;
-    opacity: 0.4;
-  }
-  
-  .slider {
-    height: 600px;
-    background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
-    background-position: 0px 0px;
-    background-size: 125px;
-  }
-  
-  .slide {
-    z-index: 0;
-    border: 5px solid #fff;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b9b3daeb759ef48ed584fdc_BOOSTED-MINIS.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .slide-2 {
-    position: relative;
-    left: 0px;
-    overflow: visible;
-    border: 6px solid #fff;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b9b400f4caae30ae200f13d_STEALTH-floater-black%20copy%203.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
   .mask {
     position: absolute;
     z-index: 2;
@@ -954,50 +794,9 @@
   .slider-section {
     overflow: hidden;
   }
-  
-  .slide-3 {
-    border: 5px solid #fff;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b9b3eb8b759ef05a658501b_BOOSTED-MINIX.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  
-  .slide-4 {
-    border: 5px solid #fff;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b9b42be1f811f4968381023_STEALTH-floater-black%20copy%204.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: repeat;
-  }
-  
-  .image-33 {
-    padding-right: 45px;
-    padding-left: 45px;
-  }
-  
-  .background-video-3 {
-    top: -90px;
-    z-index: 2;
-    width: 854px;
-    height: 487px;
-    margin: -48px auto -121px;
-    padding-top: 0px;
-  }
-  
-  .image-34 {
-    padding-bottom: 7px;
-  }
-  
+
   .img-btm-border {
     padding-bottom: 7px;
-  }
-  
-  .image-36 {
-    padding-bottom: 7px;
-  }
-  
-  .image-37 {
-    padding-bottom: 6px;
   }
   
   .gallery-section {
@@ -1100,53 +899,6 @@
     color: #000;
   }
   
-  .button-3.saraky {
-    position: relative;
-    top: 0px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 51px;
-    margin-right: auto;
-    margin-left: auto;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
-  .image-38 {
-    position: relative;
-    left: 0px;
-    top: 300px;
-    z-index: 1;
-    margin-right: 46px;
-    float: right;
-  }
-  
-  .image-38.about {
-    float: right;
-  }
-  
-  .image-38.about:hover {
-    opacity: 0.89;
-  }
-  
-  .section-10 {
-    position: relative;
-    top: -210px;
-    z-index: -1;
-    display: block;
-    height: 285px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#181818), to(#181818));
-    background-image: linear-gradient(180deg, #181818, #181818);
-  }
-  
   .text-block-13 {
     font-family: Teko, sans-serif;
     color: #8d8d8d;
@@ -1162,28 +914,6 @@
     margin-right: 37px;
     margin-left: 0px;
     text-align: right;
-  }
-  
-  .button-4 {
-    position: relative;
-    display: block;
-    margin-top: -18px;
-    margin-right: auto;
-    margin-left: 18px;
-    padding: 18px 15px 15px auto;
-    background-color: #181818;
-    font-family: Teko, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  
-  .button-4:hover {
-    border-style: none;
-    border-width: 0px 0px 4px 4px;
-    border-color: #757575;
-    background-color: #363535;
   }
   
   .row-2 {
@@ -1218,7 +948,6 @@
     margin-left: auto;
     background-color: #fff;
   }
-
   
   .bottom-line-2 {
     position: absolute;
@@ -1230,35 +959,6 @@
     margin-right: auto;
     margin-left: auto;
     background-color: #fff;
-  }
-  
-  .nav-button-animated {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    z-index: 900;
-    width: 60px;
-    height: 60px;
-    margin-top: 11px;
-    margin-right: 0px;
-    margin-bottom: auto;
-    padding: 0px;
-    background-color: #181818;
-  }
-  
-  .nav-button-animated.w--open {
-    background-color: #181818;
-  }
-  
-  .mobile-nav-link {
-    margin-bottom: 10px;
-    font-family: Teko, sans-serif;
-    color: #030303;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: crosshair;
   }
   
   .full-screen-menu-overlay {
@@ -1328,10 +1028,6 @@
     top: -130px;
   }
   
-  .image-39 {
-    padding-right: 20px;
-  }
-  
   .column-8 {
     padding-right: 38px;
     padding-left: 20px;
@@ -1373,58 +1069,12 @@
   .column-10 {
     padding-left: 0px;
   }
-  
-  .div-block-5 {
-    position: relative;
-    top: 0px;
-    z-index: 0;
-    height: 365px;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b57f13e6a84102061bc1020_boosted-campaigns.jpg");
-    background-position: 50% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .div-block-5.about {
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b9eed21fb9e098bb836dc83_may-sunday-beach-35-1.jpg");
-    background-position: 50% 81%;
-    background-size: 100%;
-    -webkit-transition: background-color 658ms ease;
-    transition: background-color 658ms ease;
-  }
-  
-  .div-block-5.cardiff {
-    z-index: 0;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5baeea47570913080d1a55c7_5-boosted-mini.jpg");
-    background-position: 50% 100%;
-    background-size: cover;
-    background-repeat: repeat;
-  }
-  
-  .div-block-5.cardiff.cardiff-image {
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba804eec325b6c82e35249a_cardiff-cs-bg.jpg");
-    background-position: 50% 100%;
-    background-size: cover;
-    background-repeat: repeat;
-  }
-  
+
   .div-block-5.moment-case-study {
     background-image: url("../img/ed/ed-splash.png");
     background-position: 0% 17%;
   }
   
-  .div-block-5.solarcity {
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba7fce65ced0c12fae60400_solarcity-cs-bg.jpg");
-    background-position: 0% 4%;
-  }
-  
-  .div-block-5.givepower {
-    z-index: 0;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba80053b828fc54a1532c08_givepower-cs-bg.jpg"), url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b57f13e6a84102061bc1020_boosted-campaigns.jpg");
-    background-position: 50% -83px, 50% 100%;
-    background-size: cover, cover;
-    background-repeat: repeat, no-repeat;
-  } 
   
   .div-block-5.kore {
     background-image: url("../img/seqrpay/seqrpay-splash.png");
@@ -1675,7 +1325,6 @@
     display: block;
     height: 500px;
     padding-left: auto;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b9b497fd116e1fc68d04920_Rectangle%2024.jpg");
     background-position: 50% 50%;
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -1696,7 +1345,6 @@
     overflow: hidden;
     height: 690px;
     margin-top: 30px;
-    background-image: url("https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b57ecf81371d7ac0ac7f304_boosted-2018-bg.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1800,10 +1448,6 @@
   
   .cs-block-description.dark {
     color: #181818;
-  }
-  
-  .button-5 {
-    margin-top: 51px;
   }
   
   .cs-block-brand-logo {
@@ -2523,11 +2167,6 @@
       margin-left: 65px;
     }
   
-    .image-4 {
-      margin-right: auto;
-      margin-left: auto;
-    }
-  
     .case-study-hero {
       background-position: 50% 50%;
     }
@@ -2589,23 +2228,12 @@
       margin-left: 0px;
     }
   
-    .image-38 {
-      top: 255px;
-      z-index: 2;
-      display: none;
-    }
-  
     .text-block-13.footer {
       margin-left: 10px;
     }
   
     .text-block-13.footer.contact {
       margin-right: 0px;
-    }
-  
-    .button-4 {
-      padding-right: 0px;
-      padding-left: 2px;
     }
   
     .column-8 {
@@ -2870,21 +2498,6 @@
       margin-left: 0px;
     }
   
-    .column-15 {
-      padding-right: 25px;
-      padding-left: 25px;
-    }
-  
-    .column-16 {
-      padding-right: 25px;
-      padding-left: 25px;
-    }
-  
-    .column-17 {
-      padding-right: 25px;
-      padding-left: 25px;
-    }
-  
     .cs-paragraph {
       padding-right: 25px;
       padding-left: 25px;
@@ -2895,30 +2508,6 @@
       margin-top: -10px;
       padding-right: 0px;
       padding-left: 0px;
-    }
-  
-    .column-19 {
-      position: relative;
-      top: 74px;
-      padding-left: 0px;
-    }
-  
-    .column-20 {
-      top: 70px;
-      padding-left: 0px;
-    }
-  
-    .column-21 {
-      left: -189px;
-      top: 110px;
-      margin-top: 29px;
-      padding-left: 0px;
-    }
-  
-    .column-22 {
-      left: 20px;
-      top: 22px;
-      display: block;
     }
   
     .cs-bg-div.kore {
@@ -2956,49 +2545,6 @@
   
     .content-center-text {
       width: 520px;
-    }
-  
-    .the-team {
-      left: 44px;
-      top: 253px;
-      padding-top: 49px;
-    }
-  
-    .lead-video {
-      margin-top: 50px;
-      margin-right: 13px;
-      margin-left: 13px;
-    }
-  
-    .lead-video._1st {
-      margin-top: 41px;
-    }
-  
-    .image-56 {
-      padding-top: 10px;
-      padding-right: 10px;
-      padding-left: 5px;
-    }
-  
-    .image-57 {
-      padding-right: 10px;
-      padding-left: 10px;
-    }
-  
-    .image-58 {
-      padding-right: 10px;
-      padding-left: 10px;
-    }
-  
-    .image-59 {
-      padding-right: 5px;
-      padding-left: 10px;
-    }
-  
-    .image-60 {
-      padding-top: 10px;
-      padding-right: 10px;
-      padding-left: 5px;
     }
   
     .div-block-19 {
@@ -3083,27 +2629,10 @@
       clear: left;
     }
   
-    .image-4 {
-      position: static;
-      left: 0px;
-      top: -22px;
-      right: 0px;
-      display: inline-block;
-      overflow: visible;
-      margin-right: auto;
-      margin-left: auto;
-    }
-  
     .section-2 {
       position: static;
     }
-  
-    .container-8 {
-      position: relative;
-      display: none;
-      overflow: hidden;
-    }
-  
+
     .case-study-hero {
       overflow: hidden;
     }
@@ -3296,21 +2825,6 @@
       padding-bottom: 3px;
     }
   
-    .image-36 {
-      padding-bottom: 3px;
-    }
-  
-    .image-37 {
-      padding-bottom: 3px;
-    }
-  
-    .gallery-section {
-      overflow: hidden;
-      margin-right: 3px;
-      margin-left: 3px;
-      padding-right: 0px;
-    }
-  
     .credits-section {
       overflow: hidden;
     }
@@ -3323,17 +2837,8 @@
       overflow: visible;
     }
   
-    .button-3 {
-      margin-top: 35px;
-      margin-left: 21px;
-    }
-  
     .button-3.cs-block {
       margin-left: 0px;
-    }
-  
-    .image-38.about {
-      display: none;
     }
   
     .text-block-13.footer {
@@ -3346,49 +2851,9 @@
       text-align: center;
     }
   
-    .button-4 {
-      margin-left: 12px;
-      padding-left: 0px;
-    }
-  
-    .nav-work.w--current {
-      color: #bcbcbc;
-    }
-  
-    .nav-button-animated {
-      overflow: visible;
-    }
-  
-    .mobile-nav-link {
-      margin-top: 13px;
-      margin-bottom: 13px;
-      border: 0px none #000;
-      font-size: 32px;
-    }
-  
-    .mobile-nav-link:hover {
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f9f9f9));
-      background-image: linear-gradient(180deg, #f9f9f9, #f9f9f9);
-      color: #616161;
-    }
-  
-    .mobile-nav-link.w--current {
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f2f2f2));
-      background-image: linear-gradient(180deg, #f2f2f2, #f2f2f2);
-      color: #000;
-    }
-  
     .full-screen-menu-overlay {
       -webkit-transition: all 200ms ease;
       transition: all 200ms ease;
-    }
-  
-    .section-11 {
-      overflow: hidden;
-    }
-  
-    .image-39 {
-      padding-right: 0px;
     }
   
     .column-8 {
@@ -3413,33 +2878,8 @@
       background-size: cover;
     }
   
-    .footer-cta {
-      overflow: visible;
-    }
-  
-    .column-11 {
-      padding-left: 10px;
-    }
-  
-    .italic-text {
-      display: none;
-    }
-  
     .image-41 {
       overflow: hidden;
-    }
-  
-    .section-13 {
-      display: none;
-      overflow: hidden;
-    }
-  
-    .container-14 {
-      display: none;
-    }
-  
-    .container-15 {
-      display: none;
     }
   
     .side-info-column {
@@ -3473,23 +2913,6 @@
       padding-left: 25px;
     }
   
-    .column-21 {
-      left: 0px;
-      top: 0px;
-      display: none;
-      padding-top: 22px;
-      padding-right: 0px;
-      padding-left: 25px;
-    }
-  
-    .column-22 {
-      left: 0px;
-      top: 0px;
-      display: none;
-      padding-top: 44px;
-      padding-left: 25px;
-    }
-  
     .full-width-img {
       overflow: hidden;
       width: auto;
@@ -3511,39 +2934,12 @@
       clear: none;
     }
   
-    .full-width-img.mega-gap {
-      margin-top: 51px;
-    }
-  
-    .full-width-img.no-gap {
-      margin-top: 0px;
-    }
-  
-    .full-width-img.boosted-site {
-      margin-bottom: -43px;
-    }
-  
-    .full-width-img.rev {
-      margin-top: 11px;
-    }
-  
-    .full-width-img.rev-top {
-      overflow: visible;
-      width: 450px;
-      max-width: 100%;
-    }
-  
-    .full-width-img.rev-mobile {
-      margin-top: -1px;
-    }
-  
     .div-block-8 {
       position: relative;
       z-index: 0;
       margin-top: -69px;
       margin-bottom: 60px;
     }
-  
   
     .cs-bg-div.cardiff {
       background-position: -499px -9px;
